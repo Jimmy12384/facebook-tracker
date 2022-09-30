@@ -1,0 +1,17 @@
+{
+  "name": "facebook-tracker",
+  "version": "1.0.0",
+  "description": "Tracks a single users facebook posts and automatically saves them in real time",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jimmy Fennelly",
+  "license": "ISC",
+  "bin": {
+    "fbtrack": "./bin/index.js"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
